@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blued">#0022ff</color>
+    <color name="pink1">#f7c2d4</color>
+    <color name="pink2">#fa72ab</color>
+    <color name="pink3">#e8286a</color>
+    <color name="pink4">#dd326c</color>
+</resources>

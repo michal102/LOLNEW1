@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_event_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.admin.lolnew1.event_activity"
+    android:background="@android:color/holo_blue_light"
+    android:backgroundTint="@android:color/holo_blue_light"
+    tools:actionBarNavMode="none">
+
+    <Button
+        android:text="heart ubgrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heart_u"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/blued"
+        android:layout_alignStart="@+id/uplus2"
+        android:layout_x="36dp"
+        android:layout_y="121dp" />
+
+    <TextView
+        android:text="1000 punktów"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginBottom="12dp"
+        android:id="@+id/textViewp1000"
+        android:layout_x="208dp"
+        android:layout_y="133dp" />
+
+    <Button
+        android:text="powrót"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/scoreupdate"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp"
+        android:id="@+id/exit2"
+        android:layout_x="29dp"
+        android:layout_y="35dp" />
+
+</AbsoluteLayout>
+
